@@ -2,7 +2,6 @@
 
 Using Parisa Base Provided
 
-=================================
 Object Pooling Explanation
 =================================
 Intention: To increase number of enemies in scene
