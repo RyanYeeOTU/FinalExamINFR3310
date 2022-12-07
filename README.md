@@ -9,7 +9,7 @@ Implementation: I would have attempted to create multiple instances of enemies a
 Command Design Pattern Explanation
 =================================
 Intention: To undo the previously collected "coins"
-Implementation: Firstly, as there were no coins placed in this starter scene, a coin object would have had to be placed multiple times in-order to begin the implementation of the command design pattern. To implement the design pattern, the amount of coins picked up would have to be kept track of through a counter, as well as their placements. Once 7 have been aqquired, a request to instaiate the coins that were picked up could be requested, and by using object pooling, placed back in the original spots, allowing players to pick them up again for more points. A UI element explaining this mechanic could be added to inform players. The game would benefit from using command design pattern in this way to 
+Implementation: Firstly, as there were no coins placed in this starter scene, a coin object would have had to be placed multiple times in-order to begin the implementation of the command design pattern. To implement the design pattern, the amount of coins picked up would have to be kept track of through a counter, as well as their placements. Once 7 have been aqquired, a request to instaiate the coins that were picked up could be requested, and by using object pooling, placed back in the original spots, allowing players to pick them up again for more points. A UI element explaining this mechanic could be added to inform players. The game would benefit from using command design pattern to execute similar mechanics in an effeciant manner.
 
 Game Management System:Speed Manager Observer
 =================================
